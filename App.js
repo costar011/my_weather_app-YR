@@ -1,21 +1,15 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import TodayScreen from "./screens/Today";
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <View></View>
-    </View>
+    <NavigationContainer>
+      <Navigator>
+        <Screen name="Today" component={TodayScreen} />
+      </Navigator>
+    </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-
-    alignItems: `center`,
-    justifyContent: `center`,
-  },
-});
 
 export default App;
