@@ -2,16 +2,12 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 const App = () => {
-  return (
-    <View styles={styles.container}>
-      <Text>sssss</Text>
-    </View>
-  );
+  return <View style={styles.container}></View>;
 };
 
 const styles = StyleSheet.create({
   container: {
-    flex: 2,
+    flex: 1,
 
     alignItems: `center`,
     justifyContent: `center`,
