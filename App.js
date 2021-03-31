@@ -1,15 +1,11 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import TodayScreen from "./screens/Today";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+
+const Tab = createBottomTabNavigator();
 
 const App = () => {
-  return (
-    <NavigationContainer>
-      <Navigator>
-        <Screen name="Today" component={TodayScreen} />
-      </Navigator>
-    </NavigationContainer>
-  );
+  return <NavigationContainer></NavigationContainer>;
 };
 
 export default App;
