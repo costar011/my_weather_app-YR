@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const App = () => {
+const today = () => {
   return (
     <View style={styles.test}>
-      <Text>today</Text>
+      <Text>sss</Text>
     </View>
   );
 };
@@ -16,4 +16,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default today;

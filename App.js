@@ -1,11 +1,10 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-
-const Tab = createBottomTabNavigator();
+import { View } from "react-native";
 
 const App = () => {
-  return <NavigationContainer></NavigationContainer>;
+  return <View></View>;
 };
 
 export default App;
