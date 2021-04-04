@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 const Today = () => {
-  <View>
+  return (
     <View>
-      <Text>today</Text>
+      <View>
+        <Text>sss</Text>
+      </View>
     </View>
-  </View>;
+  );
 };
 
 export default Today;
